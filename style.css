@@ -1,0 +1,290 @@
+.navbar-orange {
+    --bs-bg-opacity: 1;
+    background-color: #ff8a00;
+}
+
+
+.enquire-section{
+	background-image: url("img/trek-img.jpg");
+
+    background-position: left;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 5% 0 10% 0;
+}
+.enquire-section h1{
+	font-size: 46px;
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+
+}
+.enquire-form{
+	    width: 69%;
+    margin: 40px auto;
+    background: #ffffff8a;
+    height: 170px;
+    padding: 24px;
+}
+.enquire-form-field-1, .enquire-form-field-2 {
+	display: inline-flex;
+	padding: 7px 20px;
+}
+.enquire-form form .form-group{
+	padding: 0 10px;
+}
+
+.enquire-form form  label {
+    display: contents;
+    font-weight: 600;
+}
+
+.enquire-form-field-2 .btn{
+	height: 40px;
+	padding: 0 18px;
+	margin: 0 16px;
+	font-weight: 600;
+}
+.enquire-form-field-2 .btn-section{
+	display: flex;
+    align-items: end;
+}.hide {
+  display: none;
+}
+.map-container {
+  text-align: center;
+}
+.our_services {
+	width: 64%;
+	margin-top: -5%;
+}
+.our_services .row{
+	justify-content: space-between;
+
+}
+.card{
+	border: none;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: white;
+    background: darkorange;
+}
+.card{
+  position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.card img{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.card img:hover{
+
+    transform: scale(1.1);
+
+}
+.Destination{
+	margin-top: 5%;
+	width: 80%;
+}
+.detalis{
+	display: inline-flex;
+	width: 100%;background: darkorange;
+    color: white;
+}
+.detalis .place_name{width: 80%;}
+.detalis .price{width: 20%;}
+.detalis .place_name h2{
+	font-size: 30px;
+	padding: 10px 16px;
+}
+
+.detalis .price p{
+	padding: 20px 0;
+    font-weight: 600;
+}
+.managing-director{
+    background: linear-gradient( #000000a1,#0000009c),url(img/taj-mahal.jpeg);
+    background-size: cover;
+    color: white;
+    padding: 44px;
+    padding-top:64px; 
+    }
+    .managing-director p{
+    	font-size: 22px;
+    	font-weight: 600;
+    }
+    .features img{
+    	height: 230px;
+    	width: 100%;
+    }
+    .features .col-md-3{
+        padding: 68px;
+    text-align: center;
+    }
+    .features1{
+    	background: linear-gradient( #000000a1,#0000009c),url(img/tour_india.jpg);
+    	    background-size: cover;
+    }
+    .features2{
+    	background: linear-gradient( #000000a1,#0000009c),url(img/trek-img.jpg);
+    	
+    	    background-size: cover;
+    }
+    .features3{
+    	background: linear-gradient( #000000a1,#0000009c),url(img/taj-mahal.jpeg);
+    	    background-size: cover;
+    }
+    .features4{
+    	background: linear-gradient( #000000a1,#0000009c),url(img/img5.jpg);
+    	    background-size: cover;
+    }
+    .features i{
+    	height: 56px;
+    width: 56px;
+    background: #cccccc;
+    border-radius: 5em;
+    line-height: 45px;
+    text-align: center;
+    color: #222222;
+    border: 5px solid #ffffff;
+    margin-bottom:14px;
+    font-size: 22px;
+
+    }
+    .features span{
+    	font-size: 22px;
+    	color: white;
+
+    }
+.customer-words{
+	background: linear-gradient( #000000a1,#0000009c),url(img/background1.jpg);
+	padding-bottom: 4%;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.customer-words .col-md-4{
+   width: 320px;
+}
+.customer-words .col-md-4 .card{
+	width: 280px;
+}
+.customer-words .container{
+	width: 75%;
+
+}
+.customer-words h2{
+	padding: 5%;
+	color: white;
+}
+.subscribe{
+	background: linear-gradient( #000000a1,#0000009c),url(img/subscribe.jpg);
+	padding: 5%;
+	margin: auto;
+}
+.subscribe h4{
+	color: white;
+	text-align: center;
+
+}
+.subscribe-form{
+	width: 50%;
+	margin: auto;
+	display: inline-flex;
+	padding: 38px 0;
+}
+.footer{
+	
+	background: #0000001c;
+    color: #201d1d;
+    padding-top: 5%;
+}
+.footer li{
+	list-style-type: none;
+	padding: 10px 0px;
+}
+.footer ul {
+	padding: 0;
+}
+.footer ul li a{
+	font-size: 28px;
+    padding: 0 12px;
+
+}
+.copyright{
+	background: black;
+	color: white;
+	display: inline-flex;
+	width: 100%;justify-content: center;
+	padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	img.navbar-brand {
+    width: 162px;
+}
+a.nav-link {
+        font-size: 12px;
+    color: white;
+}
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .enquire-form-field-1, .enquire-form-field-2 {
+    display: block;
+  }
+  .enquire-form form .form-group {
+    padding: 6px 10px;
+	}
+   .enquire-form{
+   	height: auto;
+   }
+   .our_services {
+	    width: 100%;
+	    margin-top: 5%;
+	}
+	.our_services .card{
+       width: 220px;
+	}
+   .customer-words .col-md-4{
+   	margin: auto;
+   }
+   .features .col-md-3 {
+    padding: 16px;
+    text-align: center;
+}
+.subscribe-form{
+	width: 65%;
+}
+.enquire-form-field-2 .btn {
+    height: 40px;
+    padding: 0px 5px;
+    margin: 0 7px;
+    font-weight: 600;
+}
+
+}
